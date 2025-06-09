@@ -731,6 +731,12 @@ busuanzi_count:
 # See: https://theme-next.org/docs/third-party-services/search-services
 # ---------------------------------------------------------------
 
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
 # Algolia Search
 # For more information: https://www.algolia.com
 algolia_search:
